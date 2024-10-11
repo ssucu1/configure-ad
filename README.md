@@ -30,7 +30,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 ![AD](https://github.com/user-attachments/assets/72d4ff31-4440-4d89-87a4-0813160edf05)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Preparing the Active Directory Infastructure in Azure.
 </p>
 <br />
 
