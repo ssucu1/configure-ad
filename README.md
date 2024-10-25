@@ -46,6 +46,7 @@ Restart and then log back into DC-1 as user: mydomain.com\labuser
 <br />
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/7544771f-8cc1-4e5f-8575-f88e24d9fee0)
+![Screenshot (18)](https://github.com/user-attachments/assets/aa91ae8c-5c85-4179-af1d-5df5747a1200)
 
 
 <p>
