@@ -34,17 +34,29 @@ Preparing the Active Directory Infastructure in Azure.
 </p>
 <br />
 
-![Screenshot (15)](https://github.com/user-attachments/assets/d750e4cf-c0c4-4fb7-ac8f-3bad3841c5ec)
-
+![Screenshot (16)](https://github.com/user-attachments/assets/81db7308-b6df-4f8f-a79e-ccab0cb9a7a8)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install Active Directory
+—
+Login to DC-1 and install Active Directory Domain Services
+Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+Restart and then log back into DC-1 as user: mydomain.com\labuser
 </p>
 <br />
 
+![Screenshot (17)](https://github.com/user-attachments/assets/7544771f-8cc1-4e5f-8575-f88e24d9fee0)
 
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a bunch of additional users and attempt to log into client-1 with one of the users
+—
+Login to DC-1 as jane_admin
+Open PowerShell_ise as an administrator
+Create a new File and paste the contents of the script into it
+Run the script and observe the accounts being created
+When finished, open ADUC and observe the accounts in the appropriate OU　(_EMPLOYEES)
+attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+
 </p>
 <br />
